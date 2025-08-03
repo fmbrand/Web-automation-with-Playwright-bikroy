@@ -1,0 +1,10 @@
+{
+  "default": {
+    "require": [
+      "features/step-definitions/**/*.ts",
+      "tests/support/**/*.ts"
+    ],
+    "publishQuiet": true,
+    "compiler": "ts:ts-node/register"
+  }
+}
